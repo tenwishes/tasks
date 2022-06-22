@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+* {
+    font-family: 'Fira Mono', monospace;
+    font-weight: 400;
+}
+
+.message__box {
+    display: flex;
+    max-width: 500px;
+}
+
+.message__image {
+    align-self: end;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    object-fit: fill;
+}
+
+.message__inside {
+    display: flex;
+    flex-direction: column;
+    background: rgba(37, 42, 209, 0.85);
+    border-radius: 30px 30px 30px 5px;
+    margin: 0px 0px 25px 5px;
+}
+
+.message__name {
+    color: #e8e8e8;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.message__text {
+    padding: 0px 30px;
+    color: white;
+}
+
+.message__time {
+    color: #d7d7d7;
+    align-self: flex-end;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
