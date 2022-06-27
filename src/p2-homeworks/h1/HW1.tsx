@@ -9,12 +9,11 @@ const messageData = {
     message: 'some dasdddddddddddd4233568793    469yt7890   g394y97 3hg9v83dddddddddtext',
     time: '22:00',
 }
-
-const messageData2 = {
-    avatar: 'https://i.pinimg.com/564x/bc/2d/f3/bc2df3634c0a8258b73a69b8be108453.jpg',
+const messageData3 = {
+    avatar: 'https://i.pinimg.com/564x/34/d4/0a/34d40a6d3b181f070c081c21e628cce2.jpg',
     name: 'nevermore',
-    message: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
-    time: '22:47',
+    message: 'Lorem Ipsum is simply dummy text of the printing and typesetting indusook a galley of type and scrambled it to make a type specimen book.',
+    time: '23:01',
 }
 
 function HW1() {
@@ -28,12 +27,11 @@ function HW1() {
                 message={messageData.message}
                 time={messageData.time}
             />
-
             <Message
-                avatar={messageData2.avatar}
-                name={messageData2.name}
-                message={messageData2.message}
-                time={messageData2.time}
+                avatar={messageData3.avatar}
+                name={messageData3.name}
+                message={messageData3.message}
+                time={messageData3.time}
             />
 
             <hr/>
